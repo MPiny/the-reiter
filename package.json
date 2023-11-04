@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@types/react-dom": "^18.2.14",
+    "next": "latest",
+    "next-themes": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.10",
+    "@types/react": "^18.2.33",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "typescript": "5.2.2",
+    "webpack": "^5.89.0"
+  }
+}

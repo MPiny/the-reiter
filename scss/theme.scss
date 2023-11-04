@@ -1,0 +1,23 @@
+:root {
+    --primary: #00e269;
+    --secondary: #e20079;
+    --analogous1: #08e200;
+    --analogous2: #00e2db;
+    --background: #ffffff;
+    --cardBackground: #fffffffe3;
+    --toolbarBackground: #ffffffe8;
+    --dialogBackground: #ffffffd6;
+    --textIntense: #000000de;
+    --textMedium: #00000099;
+    --textDisabled: #00000061;
+    
+    &[data-theme='dark'] {
+        --background: #000000;
+        --cardBackground: #000000e3;
+        --toolbarBackground: #000000e8;
+        --dialogBackground: #000000d6;
+        --textIntense: #ffffffde;
+        --textMedium: #fffffff99;
+        --textDisabled: #ffffffe61;
+    }
+}

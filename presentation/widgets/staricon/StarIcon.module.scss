@@ -1,0 +1,20 @@
+.star_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    &_filled {
+        @extend .star_icon;
+        color: var(--primary);
+    }
+
+    &_unfilled {
+        @extend .star_icon;
+        color: grey;
+    }
+}
+
+
+
+
+
