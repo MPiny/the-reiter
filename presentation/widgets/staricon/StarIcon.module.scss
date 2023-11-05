@@ -1,18 +1,26 @@
+.container {
+    position: relative;
+}
+
 .star_icon {
-    position: absolute;
     top: 0;
-    left: 0;
+    bottom:0;
+    position: relative;
 
     &_filled {
         @extend .star_icon;
         color: var(--primary);
+        z-index: 10;
+        position: absolute;
     }
 
     &_unfilled {
         @extend .star_icon;
         color: grey;
+        display: block;
     }
 }
+
 
 
 

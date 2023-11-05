@@ -1,0 +1,12 @@
+.star_bar {
+    display: flex;
+    align-content: center;
+    
+    input[type="radio"] {
+        display: none;
+    }
+}
+
+.star {
+    cursor: pointer;
+}

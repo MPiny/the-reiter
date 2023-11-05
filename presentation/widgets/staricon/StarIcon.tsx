@@ -3,14 +3,13 @@ import {IconContext} from "@react-icons/all-files";
 import {AiFillStar} from '@react-icons/all-files/ai/AiFillStar';
 
 interface StarIconProps {
-    color: string;
     size?: number
     percentage?: number;
 }
 
-export default function StarIcon({color, size = 1, percentage = 100}: StarIconProps) {
+export default function StarIcon({size = 1, percentage = 100}: StarIconProps) {
     return (
-        <span style={{display: "inline-block", position: "relative"}}>
+        <div className={styles.container}>
             <div className={styles.star_icon_unfilled}>
             <IconContext.Provider value={{
                 size: `${size}em`
@@ -28,6 +27,6 @@ export default function StarIcon({color, size = 1, percentage = 100}: StarIconPr
                 <AiFillStar/>
             </IconContext.Provider>
             </div>
-        </span>
+        </div>
     )
 }
